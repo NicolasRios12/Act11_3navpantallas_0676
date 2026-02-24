@@ -19,9 +19,9 @@ class MiAppNavegacion extends StatelessWidget {
       initialRoute: '/',
       // Mapa de rutas
       routes: {
-        '/': (context) => const PaginaUno(),
-        '/segunda': (context) => const PaginaDos(),
-        '/tercera': (context) => const PaginaTres(),
+        '/': (context) => const DogClubApp(),
+        '/segunda': (context) => const DogClubpag2(),
+        '/tercera': (context) => const GuarderiaPage(),
       },
     );
   }
